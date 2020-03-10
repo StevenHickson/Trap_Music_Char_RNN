@@ -1,0 +1,124 @@
+using CUDA on GPU 0...	
+loading data files...	
+cutting off end of data so that the batches/sequences divide evenly	
+reshaping tensor...	
+data load done. Number of data batches in train: 56, val: 3, test: 0	
+vocab size: 87	
+creating an lstm with 2 layers	
+setting forget gate biases to 1 in LSTM layer 1	
+setting forget gate biases to 1 in LSTM layer 2	
+number of parameters in the model: 254423	
+cloning rnn	
+cloning criterion	
+50/2800 (epoch 0.893), train_loss = 3.24144961, grad/param norm = 2.9205e-01, time/batch = 0.0664s	
+100/2800 (epoch 1.786), train_loss = 3.06525598, grad/param norm = 7.4193e-01, time/batch = 0.0665s	
+150/2800 (epoch 2.679), train_loss = 2.78944351, grad/param norm = 1.2297e+00, time/batch = 0.0664s	
+200/2800 (epoch 3.571), train_loss = 2.48368584, grad/param norm = 2.4983e-01, time/batch = 0.0664s	
+250/2800 (epoch 4.464), train_loss = 2.38508390, grad/param norm = 5.2081e-01, time/batch = 0.0664s	
+300/2800 (epoch 5.357), train_loss = 2.33863639, grad/param norm = 5.2523e-01, time/batch = 0.0665s	
+350/2800 (epoch 6.250), train_loss = 2.19622997, grad/param norm = 2.6929e-01, time/batch = 0.0665s	
+400/2800 (epoch 7.143), train_loss = 2.10100593, grad/param norm = 3.3672e-01, time/batch = 0.0664s	
+450/2800 (epoch 8.036), train_loss = 2.10599655, grad/param norm = 3.0758e-01, time/batch = 0.0665s	
+500/2800 (epoch 8.929), train_loss = 2.03757402, grad/param norm = 2.8305e-01, time/batch = 0.0665s	
+550/2800 (epoch 9.821), train_loss = 1.97338017, grad/param norm = 3.5137e-01, time/batch = 0.0664s	
+decayed learning rate by a factor 0.97 to 0.00194	
+600/2800 (epoch 10.714), train_loss = 1.91372000, grad/param norm = 2.2847e-01, time/batch = 0.0664s	
+decayed learning rate by a factor 0.97 to 0.0018818	
+650/2800 (epoch 11.607), train_loss = 1.87103609, grad/param norm = 2.7096e-01, time/batch = 0.0665s	
+decayed learning rate by a factor 0.97 to 0.001825346	
+700/2800 (epoch 12.500), train_loss = 1.79433991, grad/param norm = 1.7350e-01, time/batch = 0.0664s	
+decayed learning rate by a factor 0.97 to 0.00177058562	
+750/2800 (epoch 13.393), train_loss = 1.83317703, grad/param norm = 1.9139e-01, time/batch = 0.0664s	
+decayed learning rate by a factor 0.97 to 0.0017174680514	
+800/2800 (epoch 14.286), train_loss = 1.75958490, grad/param norm = 1.8762e-01, time/batch = 0.0664s	
+decayed learning rate by a factor 0.97 to 0.001665944009858	
+850/2800 (epoch 15.179), train_loss = 1.74476728, grad/param norm = 2.0299e-01, time/batch = 0.0686s	
+decayed learning rate by a factor 0.97 to 0.0016159656895623	
+900/2800 (epoch 16.071), train_loss = 1.61787462, grad/param norm = 1.6425e-01, time/batch = 0.0665s	
+950/2800 (epoch 16.964), train_loss = 1.68137502, grad/param norm = 2.0380e-01, time/batch = 0.0664s	
+decayed learning rate by a factor 0.97 to 0.0015674867188754	
+evaluating loss over split index 2	
+1/3...	
+2/3...	
+3/3...	
+saving checkpoint to cv/lm_lstm_epoch17.86_1.7833.t7	
+1000/2800 (epoch 17.857), train_loss = 1.64614507, grad/param norm = 1.8223e-01, time/batch = 0.0664s	
+decayed learning rate by a factor 0.97 to 0.0015204621173091	
+1050/2800 (epoch 18.750), train_loss = 1.69289197, grad/param norm = 2.0485e-01, time/batch = 0.0665s	
+decayed learning rate by a factor 0.97 to 0.0014748482537899	
+1100/2800 (epoch 19.643), train_loss = 1.59445101, grad/param norm = 2.1929e-01, time/batch = 0.0665s	
+decayed learning rate by a factor 0.97 to 0.0014306028061762	
+1150/2800 (epoch 20.536), train_loss = 1.45586594, grad/param norm = 2.6339e-01, time/batch = 0.0664s	
+decayed learning rate by a factor 0.97 to 0.0013876847219909	
+1200/2800 (epoch 21.429), train_loss = 1.46952672, grad/param norm = 1.7366e-01, time/batch = 0.0665s	
+decayed learning rate by a factor 0.97 to 0.0013460541803311	
+1250/2800 (epoch 22.321), train_loss = 1.52411437, grad/param norm = 1.6621e-01, time/batch = 0.0665s	
+decayed learning rate by a factor 0.97 to 0.0013056725549212	
+1300/2800 (epoch 23.214), train_loss = 1.45569506, grad/param norm = 1.5295e-01, time/batch = 0.0666s	
+decayed learning rate by a factor 0.97 to 0.0012665023782736	
+1350/2800 (epoch 24.107), train_loss = 1.38455276, grad/param norm = 2.6785e-01, time/batch = 0.0664s	
+decayed learning rate by a factor 0.97 to 0.0012285073069254	
+1400/2800 (epoch 25.000), train_loss = 1.46712629, grad/param norm = 1.9023e-01, time/batch = 0.0665s	
+1450/2800 (epoch 25.893), train_loss = 1.46725796, grad/param norm = 1.7929e-01, time/batch = 0.0665s	
+decayed learning rate by a factor 0.97 to 0.0011916520877176	
+1500/2800 (epoch 26.786), train_loss = 1.46474365, grad/param norm = 2.2538e-01, time/batch = 0.0664s	
+decayed learning rate by a factor 0.97 to 0.0011559025250861	
+1550/2800 (epoch 27.679), train_loss = 1.47709937, grad/param norm = 1.9909e-01, time/batch = 0.0665s	
+decayed learning rate by a factor 0.97 to 0.0011212254493335	
+1600/2800 (epoch 28.571), train_loss = 1.44787876, grad/param norm = 2.1914e-01, time/batch = 0.0663s	
+decayed learning rate by a factor 0.97 to 0.0010875886858535	
+1650/2800 (epoch 29.464), train_loss = 1.38482033, grad/param norm = 1.8170e-01, time/batch = 0.0664s	
+decayed learning rate by a factor 0.97 to 0.0010549610252779	
+1700/2800 (epoch 30.357), train_loss = 1.44631607, grad/param norm = 2.1469e-01, time/batch = 0.0664s	
+decayed learning rate by a factor 0.97 to 0.0010233121945196	
+1750/2800 (epoch 31.250), train_loss = 1.34595632, grad/param norm = 1.8734e-01, time/batch = 0.0663s	
+decayed learning rate by a factor 0.97 to 0.00099261282868397	
+1800/2800 (epoch 32.143), train_loss = 1.24468353, grad/param norm = 1.6951e-01, time/batch = 0.0663s	
+decayed learning rate by a factor 0.97 to 0.00096283444382345	
+1850/2800 (epoch 33.036), train_loss = 1.29461672, grad/param norm = 2.0088e-01, time/batch = 0.0664s	
+1900/2800 (epoch 33.929), train_loss = 1.30205548, grad/param norm = 1.8875e-01, time/batch = 0.0663s	
+decayed learning rate by a factor 0.97 to 0.00093394941050874	
+1950/2800 (epoch 34.821), train_loss = 1.34101604, grad/param norm = 2.0453e-01, time/batch = 0.0664s	
+decayed learning rate by a factor 0.97 to 0.00090593092819348	
+evaluating loss over split index 2	
+1/3...	
+2/3...	
+3/3...	
+saving checkpoint to cv/lm_lstm_epoch35.71_1.7558.t7	
+2000/2800 (epoch 35.714), train_loss = 1.31639607, grad/param norm = 2.4900e-01, time/batch = 0.0664s	
+decayed learning rate by a factor 0.97 to 0.00087875300034768	
+2050/2800 (epoch 36.607), train_loss = 1.33328279, grad/param norm = 2.0924e-01, time/batch = 0.0663s	
+decayed learning rate by a factor 0.97 to 0.00085239041033725	
+2100/2800 (epoch 37.500), train_loss = 1.24275271, grad/param norm = 1.8988e-01, time/batch = 0.0663s	
+decayed learning rate by a factor 0.97 to 0.00082681869802713	
+2150/2800 (epoch 38.393), train_loss = 1.27739406, grad/param norm = 2.0922e-01, time/batch = 0.0662s	
+decayed learning rate by a factor 0.97 to 0.00080201413708631	
+2200/2800 (epoch 39.286), train_loss = 1.25499631, grad/param norm = 2.0045e-01, time/batch = 0.0663s	
+decayed learning rate by a factor 0.97 to 0.00077795371297373	
+2250/2800 (epoch 40.179), train_loss = 1.25901372, grad/param norm = 1.7764e-01, time/batch = 0.0663s	
+decayed learning rate by a factor 0.97 to 0.00075461510158451	
+2300/2800 (epoch 41.071), train_loss = 1.16026721, grad/param norm = 1.8432e-01, time/batch = 0.0663s	
+2350/2800 (epoch 41.964), train_loss = 1.21584333, grad/param norm = 1.7999e-01, time/batch = 0.0663s	
+decayed learning rate by a factor 0.97 to 0.00073197664853698	
+2400/2800 (epoch 42.857), train_loss = 1.22775077, grad/param norm = 2.4844e-01, time/batch = 0.0663s	
+decayed learning rate by a factor 0.97 to 0.00071001734908087	
+2450/2800 (epoch 43.750), train_loss = 1.28182266, grad/param norm = 2.0087e-01, time/batch = 0.0663s	
+decayed learning rate by a factor 0.97 to 0.00068871682860844	
+2500/2800 (epoch 44.643), train_loss = 1.23310560, grad/param norm = 2.2482e-01, time/batch = 0.0663s	
+decayed learning rate by a factor 0.97 to 0.00066805532375019	
+2550/2800 (epoch 45.536), train_loss = 1.06539127, grad/param norm = 1.8073e-01, time/batch = 0.0663s	
+decayed learning rate by a factor 0.97 to 0.00064801366403768	
+2600/2800 (epoch 46.429), train_loss = 1.13862765, grad/param norm = 2.3900e-01, time/batch = 0.0662s	
+decayed learning rate by a factor 0.97 to 0.00062857325411655	
+2650/2800 (epoch 47.321), train_loss = 1.20195729, grad/param norm = 2.1826e-01, time/batch = 0.0662s	
+decayed learning rate by a factor 0.97 to 0.00060971605649306	
+2700/2800 (epoch 48.214), train_loss = 1.09602596, grad/param norm = 2.0450e-01, time/batch = 0.0663s	
+decayed learning rate by a factor 0.97 to 0.00059142457479826	
+2750/2800 (epoch 49.107), train_loss = 1.02978781, grad/param norm = 2.0468e-01, time/batch = 0.0662s	
+decayed learning rate by a factor 0.97 to 0.00057368183755432	
+evaluating loss over split index 2	
+1/3...	
+2/3...	
+3/3...	
+saving checkpoint to cv/lm_lstm_epoch50.00_1.7958.t7	
+2800/2800 (epoch 50.000), train_loss = 1.12015275, grad/param norm = 2.1566e-01, time/batch = 0.0662s	
